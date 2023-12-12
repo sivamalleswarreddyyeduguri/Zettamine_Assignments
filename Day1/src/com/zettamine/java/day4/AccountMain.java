@@ -31,7 +31,6 @@ public class AccountMain {
 		
 		
 		System.out.print("Enter Amount to WithDraw: ");
-		scn.close();
 		double amount = scn.nextDouble();
 		Customer c = new Customer(custId, name, email);
 		SavingsAccount sa = new SavingsAccount(accNo, c, balance, minimumBalance);
